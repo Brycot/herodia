@@ -33,6 +33,7 @@ export const SearchPage = () => {
                 <div className="col-5">
                     <h4>Searching</h4>
                     <form
+                        aria-label='form'
                         className="d-flex align-items-center"
                         onSubmit={onSearchSubmit}
                     >
